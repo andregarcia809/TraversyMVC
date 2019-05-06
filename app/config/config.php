@@ -1,12 +1,12 @@
 <?php
 // DB Params
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'support1');
-define('DB_NAME', 'TMVC');
+define('DB_USER', '_YOUR_USER_');
+define('DB_PASSWORD', '_PASSWORD_');
+define('DB_NAME', '_YOUR_DBNAME_');
 // App Root
 define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
-define('URLROOT', 'http://localhost:81/traversymvc');
+define('URLROOT', '_YOUR_SITENAME_');
 // Site Name
-define('SITENAME', 'TraversyMVC');
+define('SITENAME', '_YOURSITE_NAME_');

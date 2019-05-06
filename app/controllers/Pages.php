@@ -1,15 +1,13 @@
 <?php 
 	class Pages extends Controller {
 		public function __construct() {
-		$this->postModel = $this->model('Post');
+			
 		}
 
 		public function index() {
-			// not working
-			$posts = $this->postModel->getPosts();
 			$data = [
-				'title' => 'Welcome',
-				'posts' => $posts
+				'title' => 'Traversy MVC',
+				
 			];
 
 			$this->view('pages/index', $data);
